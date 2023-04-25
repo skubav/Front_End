@@ -9,9 +9,10 @@ const App = () => {
       //<Header />
       }
       <About />
+      
+      <Menu />
       {
         /*
-      <Menu />
       <Delivery />
       <Promo />
       <Gallery />

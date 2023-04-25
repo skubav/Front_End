@@ -49,3 +49,20 @@
   display: flex;
   justify-content: center;
 }
+
+@media screen and (max-width:500px) {
+  .pubH__menu_titleContainer {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 80px 15px 40px 15px;
+  }
+
+  .pubH_menu_redirection {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
