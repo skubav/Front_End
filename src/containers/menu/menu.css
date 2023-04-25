@@ -1,0 +1,51 @@
+.pubH__menu {
+  background: rgb(244, 244, 244);
+  width: 100%;
+}
+
+.pubH__menu_titleContainer {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 80px 15px 40px 15px;
+}
+
+.pubH__menu_titleContainer_textPart1 {
+  font-family: 'Philosopher';
+  font-weight: normal;
+  font-style: normal;
+  color: #b2a355;
+  margin-bottom: 5px;
+  font-size: 60px;
+  line-height: 65px;
+  text-align: center;
+}
+
+.pubH__menu_titleContainer_textPart2 {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  color: #303030;
+  font-size: 50px;
+  line-height: 55px;
+  text-align: center;
+}
+
+.pubH__menu_titleContainer_img {
+  display: flex;
+  justify-content:center;
+  margin-top: 8px;
+}
+
+.pubH__menu_titleContainer_img > img{
+  width: 28px;
+  height: 28px;
+}
+
+.pubH__menu_titleContainer_img span {
+  color: #b2a355;
+}
+
+.pubH_menu_redirection {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}

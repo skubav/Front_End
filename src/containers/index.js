@@ -1,0 +1,8 @@
+export { default as About } from './about/About'
+export { default as Comments } from './comments/Comments'
+export { default as Contacts } from './contacts/Contacts'
+export { default as Delivery } from './delivery/Delivery'
+export { default as Gallery } from './gallery/Gallery'
+export { default as Header } from './header/Header'
+export { default as Menu } from './menu/Menu'
+export { default as Promo } from './promo/Promo'

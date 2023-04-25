@@ -1,0 +1,84 @@
+.pubH__about {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 70px 0;
+  display: flex;
+}
+
+.pubH__about__img1{
+  background: url(../../assets/images/pubH__about__img1.jpg) no-repeat center;
+}
+
+.pubH__about__img2{
+  background: url(../../assets/images/pubH__about__img2.jpg) no-repeat center;
+}
+
+.pubH__about__img3{
+  background: url(../../assets/images/pubH__about__img3.jpg) no-repeat center;
+}
+
+.pubH__about__img1, .pubH__about__img2, .pubH__about__img3 {
+  padding: 2.5px;
+  height: 345px;
+  margin: 0 4px;
+  width: 192px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.pubH__about__text{
+  width: 600px;
+  padding: 40px 15px;
+}
+
+.pubH__about__text_about {
+  font-family: 'Philosopher';
+  --font-weight: theme;
+  color: #b2a355;
+  font-size: 40px;
+  line-height: 45px
+}
+
+.pubH__about__text_pubH {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  color: #303030;
+  margin-bottom: 20px;
+  font-size: 35px;
+  line-height: 40px;
+}
+
+.pubH__about__text_textpart1 {
+  font: normal 14px / 25px "Montserrat", Helvetica, Arial, Verdana, sans-serif;
+  word-spacing: normal;
+  color: #878787;
+  margin-bottom: 10px;
+}
+
+.pubH__about__text_textpart2 {
+  font: normal 14px / 25px "Montserrat", Helvetica, Arial, Verdana, sans-serif;
+  word-spacing: normal;
+  color: #878787;
+}
+
+@media screen and (max-width: 500px) {
+  .pubH__about {
+    flex-direction: column;
+    width: 350px;
+    margin: 0 auto;
+  }
+
+  .pubH__about__img1, .pubH__about__img2, .pubH__about__img3 {
+    padding: 0px;
+    margin: 0 0 6px 0;
+    height: 280px;
+    width: 100%;
+  }
+
+  .pubH__about__text{
+    width: 100%;
+    padding: 40px 15px;
+  }
+}

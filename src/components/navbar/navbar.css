@@ -1,0 +1,59 @@
+.pubH__navbar {
+  display: flex;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.pubH__navbar-links {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: space-between;
+  width: 1250px !important;
+  padding: 0 60px;
+}
+
+.pubH__navbar-links__logo {
+  margin: 0;
+  justify-content: start;
+}
+
+.pubH__navbar-links__logo a img{
+  width: 75px;
+  height: 73px;
+}
+
+.pubH__navbar-links__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.pubH__navbar-links__container > p > a{
+  margin: 18px 10px;
+  vertical-align: bottom;
+  display: flex;
+  color: white;
+  text-decoration: none;
+  font: normal bold 14px / 18px "Montserrat", Helvetica, Arial, Verdana, sans-serif;
+}
+
+.pubH__navbar-links__meta {
+  display: flex;
+  flex-direction: row;
+  padding-left: 30px;
+}
+
+.pubH__navbar-links__meta_fbook {
+  background-color: red;
+  width: 26px;
+  height: 26px;
+  margin-right: 2.5px;
+}
+
+.pubH__navbar-links__meta_insta {
+  background-color: white;
+  width: 26px;
+  height: 26px;
+  margin-right: 2.5px;
+}
