@@ -16,9 +16,33 @@ const Menu = () => {
         </div>
       </div>
       <div className="pubH_menu_redirection">
-        <MenuItem option={" pubH__menuItem1"} menuUrl="#menuSite" menuDisc="Меню" menuHiddenDisc="Переглянути"/>
-        <MenuItem option={" pubH__menuItem2"} menuUrl="#menuBarSite" menuDisc="Барне меню" menuHiddenDisc="Переглянути"/>
-        <MenuItem option={" pubH__menuItem3"} menuUrl="#menuBanketSite" menuDisc="Банкетне меню" menuHiddenDisc="Переглянути"/>
+        <MenuItem 
+          menuWrapperId={"wpId1"} 
+          menuBorderId={"brdId1"} 
+          menuHiddenDiscId={"hdId1"} 
+          menuClassName={" pubH__menuItem1"} 
+          menuUrl="#menuSite" 
+          menuDisc="Меню" 
+          menuHiddenDisc="Переглянути"
+        />
+        <MenuItem 
+          menuWrapperId={"wpId2"} 
+          menuBorderId={"brdId2"} 
+          menuHiddenDiscId={"hdId2"} 
+          menuClassName={" pubH__menuItem2"} 
+          menuUrl="#menuBarSite" 
+          menuDisc="Барне меню" 
+          menuHiddenDisc="Переглянути"
+        />
+        <MenuItem 
+          menuWrapperId={"wpId3"} 
+          menuBorderId={"brdId3"} 
+          menuHiddenDiscId={"hdId3"} 
+          menuClassName={" pubH__menuItem3"} 
+          menuUrl="#menuBanketSite" 
+          menuDisc="Банкетне меню" 
+          menuHiddenDisc="Переглянути"
+        />
       </div>
     </div>
   )

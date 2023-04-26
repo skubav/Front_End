@@ -9,7 +9,6 @@ const App = () => {
       //<Header />
       }
       <About />
-      
       <Menu />
       {
         /*
@@ -20,7 +19,9 @@ const App = () => {
       <Contacts />
       */
       }
+    <h1>asddsada</h1>
     </div>
+    
   )
 }
 

@@ -1,62 +1,72 @@
 .pubH__menuItem{
-  margin: 15px;
+  width: 370px;
   padding: 30px;
+  margin: 15px;
   background-color: white;
 }
 
-.pubH__menuItem :hover .pubh_menuItem__wrap_hiddenDisc {
+.pubH__menuItem__wrapper{
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
-}
-
-
-.pubH__menuItem__wrap {
-  padding: 45px;
-}
-
-.pubH__menuItem__wrap > a {
-  width: 220px;
-  height: 345px;
-  color: white;
-  display: flex;
-  align-items: center;
   justify-content: center;
-  font-family: 'Montserrat';
-  font-weight: 600;
-  font-size: 40px;
-  line-height: 45px;
+  align-items: center;
+  width: 100%;
+  height: 435px;
   text-decoration: none;
 }
 
-/*.pubH__menuItem__wrap > a :hover {
-  width: 250px;
-  height: 375px;
-  border: white solid 1px;
+.pubH__menuItem__wrapper__border {  
+  text-align: center;
+  padding:0px;
+  border: white 0px solid;
+  width: 130px;
+}
+
+.pubH__menuItem__wrapper__border > p {
   color: white;
   display: flex;
   align-items: center;
   justify-content: center;
-  align-items: center;
   font-family: 'Montserrat';
   font-weight: 600;
   font-size: 40px;
   line-height: 45px;
-  opacity: 0.5;
 }
 
-.pubH__menuItem__wrap > a :hover + .pubh_menuItem__wrap_hiddenDisc{
-  display: flex;
-}*/
+#hdId1, #hdId2, #hdId3 {
+  font: normal 0px "Montserrat", Helvetica, Arial, Verdana, sans-serif;
+  visibility: hidden;
+  color: #b2a355;
+}
 
-.pubh_menuItem__wrap_hiddenDisc {
-  /*display:none;*/
-  font: normal 14px / 25px "Montserrat", Helvetica, Arial, Verdana, sans-serif;
+#wpId1:hover > #brdId1  {
+  padding:130px 125px 170px 125px; 
+  border-width: 2px;
+  transition: all 0.3s ease-out;
+}
+
+#wpId2:hover > #brdId2, #wpId3:hover > #brdId3 {
+  padding:110px 125px 150px 125px; 
+  border-width: 2px;
+  transition: all 0.3s ease-out;
+}
+
+#wpId1:hover > #brdId1 > #hdId1, #wpId2:hover > #brdId2 > #hdId2, #wpId3:hover > #brdId3 > #hdId3 {
+  visibility: visible;
+  font-size: 25px;
+  transition: all 0.3s ease-out;
 }
 
 .pubH__menuItem1 {
   background: url(../../assets/images/pubH__menu-1.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.pubH__menuItem1:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(../../assets/images/pubH__menu-1.png) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -71,8 +81,24 @@
   background-size: cover;
 }
 
+.pubH__menuItem2:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(../../assets/images/pubH__bar-1.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .pubH__menuItem3 {
   background: url(../../assets/images/pubH__banket-1.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.pubH__menuItem3:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(../../assets/images/pubH__banket-1.png) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
