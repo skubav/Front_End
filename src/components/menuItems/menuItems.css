@@ -40,13 +40,13 @@
 }
 
 #wpId1:hover > #brdId1  {
-  padding:130px 125px 170px 125px; 
+  padding:140px 125px 160px 125px; 
   border-width: 2px;
   transition: all 0.3s ease-out;
 }
 
 #wpId2:hover > #brdId2, #wpId3:hover > #brdId3 {
-  padding:110px 125px 150px 125px; 
+  padding:110px 125px 145px 125px; 
   border-width: 2px;
   transition: all 0.3s ease-out;
 }

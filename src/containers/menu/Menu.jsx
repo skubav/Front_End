@@ -7,8 +7,8 @@ const Menu = () => {
   return (
     <div className="pubH__menu">
       <div className="pubH__menu_titleContainer">
-        <div className="pubH__menu_titleContainer_textPart1">Меню</div>
-        <div className="pubH__menu_titleContainer_textPart2">НАШОГО ЗАКЛАДУ</div>
+        <p className="pubH__menu_titleContainer_textPart1">Меню</p>
+        <p className="pubH__menu_titleContainer_textPart2">НАШОГО ЗАКЛАДУ</p>
         <div className="pubH__menu_titleContainer_img">
           <span>__________</span>
           <img src={hop} alt="hop" />

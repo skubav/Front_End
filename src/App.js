@@ -10,16 +10,15 @@ const App = () => {
       }
       <About />
       <Menu />
+      <Delivery />
       {
         /*
-      <Delivery />
       <Promo />
       <Gallery />
       <Comments />
       <Contacts />
       */
       }
-    <h1>asddsada</h1>
     </div>
     
   )

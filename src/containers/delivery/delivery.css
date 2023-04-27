@@ -1,0 +1,90 @@
+.pubH__delivery {
+  background: white;
+  width: 100%;
+}
+
+.pubH__delivery_titleContainer {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 80px 15px 40px 15px;
+}
+
+.pubH__delivery_titleContainer_textPart1 {
+  font-family: 'Philosopher';
+  font-weight: normal;
+  font-style: normal;
+  color: #b2a355;
+  margin-bottom: 5px;
+  font-size: 60px;
+  line-height: 65px;
+  text-align: center;
+}
+
+.pubH__delivery_titleContainer_textPart2 {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  color: #303030;
+  font-size: 50px;
+  line-height: 55px;
+  text-align: center;
+}
+
+.pubH__delivery_titleContainer_img {
+  display: flex;
+  justify-content:center;
+  margin-top: 8px;
+}
+
+.pubH__delivery_titleContainer_img > img{
+  width: 28px;
+  height: 28px;
+}
+
+.pubH__delivery_titleContainer_img span {
+  color: #b2a355;
+}
+
+.pubH__delivery_deliveryInfo {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 80px;
+}
+
+.pubH__delivery_deliveryInfo_text, .pubH__delivery_deliveryInfo_img {
+  width: 540px;
+  height: 580px;
+  margin: 30px;
+  padding: 45px 30px;
+  background-color: rgb(244, 244, 244);
+}
+
+.ubH__delivery_deliveryInfo_text_part1 {
+  border-bottom: #878787 dashed 1px;
+  padding-bottom: 18px;
+  margin-bottom: 30px;
+}
+
+.pubH__delivery_deliveryInfo_text > div > p{
+  font-family: 'Philosopher';
+  font-weight: normal;
+  font-style: normal;
+  color: #878787;
+  margin-bottom: 12px;
+  font-size: 17px;
+  line-height: 22px;
+}
+
+p.pubH__delivery_deliveryInfo_text_bold {
+  font-weight: 700 !important;
+  font-size: 20px !important;
+  color: black !important;
+}
+
+.pubH__delivery_deliveryInfo_img {
+  background: url(../../assets/images/pubH_tableWithOrders.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
